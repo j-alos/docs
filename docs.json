@@ -1,55 +1,55 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Corpora",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#491a64",
+    "light": "#7a3f9c",
+    "dark": "#2e0f3c"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Guias",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Comece por aqui!",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "inicio/download-app",
+              "inicio/crie-perfil-e-site",
+              "inicio/agendamentos",
+              "inicio/notificacoes",
+              "inicio/compartilhando-corpo"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Acompanhando seu paciente",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "paciente/pacientes",
+              "paciente/prontuario",
+              "paciente/tecnicas-testes",
+              "paciente/diario-bordo",
+              "paciente/documentos"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Contas e Cobranças",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "financeiro/financeiro",
+              "financeiro/cobranca-automatica"
+            ]
+          },
+          {
+            "group": "Marketing",
+            "pages": [
+              "marketing/compartilhamento-redes"
+            ]
+          },
+          {
+            "group": "Upgrades para seu plano",
+            "pages": [
+              "planos/planos-e-precos"
             ]
           }
         ]
@@ -58,19 +58,29 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "WhatsApp",
+          "href": "https://wa.me/551131361826",
+          "icon": "chat-bubble-left-right"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Instagram",
+          "href": "https://instagram.com/usecorpora",
+          "icon": "camera"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "YouTube",
+          "href": "https://www.youtube.com/@CorporaTV",
+          "icon": "play-circle"
+        },
+        {
+          "anchor": "Termos de uso",
+          "href": "https://usecorpora.com.br/termos-de-uso/",
+          "icon": "document-text"
+        },
+        {
+          "anchor": "Privacidade",
+          "href": "https://usecorpora.com.br/politica-de-privacidade/",
+          "icon": "lock-closed"
         }
       ]
     }
@@ -82,21 +92,21 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Fale com o suporte",
+        "href": "https://wa.me/551131361826"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Acessar Corpora",
+      "href": "https://app.usecorpora.com.br"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://instagram.com/usecorpora",
+      "youtube": "https://www.youtube.com/@CorporaTV",
+      "website": "https://usecorpora.com.br"
     }
   }
 }
