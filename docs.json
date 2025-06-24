@@ -12,7 +12,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guias",
+        "tab": "Central de Ajuda",
         "groups": [
           {
             "group": "Comece por aqui!",
@@ -61,27 +61,27 @@
         {
           "anchor": "WhatsApp",
           "href": "https://wa.me/551131361826",
-          "icon": "chat-bubble-left-right"
+          "icon": "message-square"
         },
         {
           "anchor": "Instagram",
           "href": "https://instagram.com/usecorpora",
-          "icon": "camera"
+          "icon": "instagram"
         },
         {
           "anchor": "YouTube",
           "href": "https://www.youtube.com/@CorporaTV",
-          "icon": "play-circle"
+          "icon": "youtube"
         },
         {
           "anchor": "Termos de uso",
           "href": "https://usecorpora.com.br/termos-de-uso/",
-          "icon": "document-text"
+          "icon": "file-text"
         },
         {
           "anchor": "Privacidade",
           "href": "https://usecorpora.com.br/politica-de-privacidade/",
-          "icon": "lock-closed"
+          "icon": "lock"
         }
       ]
     }
